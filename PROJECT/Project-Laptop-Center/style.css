@@ -1,0 +1,140 @@
+/* LaptoKu Custom Styles */
+
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+  }
+  
+  /* Navbar Styles */
+  .navbar-brand {
+      font-weight: bold;
+      font-size: 1.5rem;
+  }
+  
+  /* Banner Styles */
+  .header-banner {
+      background: linear-gradient(45deg, #0062cc, #1e88e5);
+      padding: 60px 0;
+      margin-bottom: 30px;
+  }
+  
+  /* Card Styles */
+  .card {
+      transition: transform 0.3s, box-shadow 0.3s;
+      margin-bottom: 20px;
+      height: 100%;
+  }
+  
+  .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.06);
+  }
+  
+  .card-img-top {
+      height: 200px;
+      object-fit: contain;
+      padding: 15px;
+      background-color: #f8f9fa;
+  }
+  
+  /* Badge Styles */
+  .badge-stock {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+  }
+  
+  /* WhatsApp Button */
+  .btn-pesan {
+      background-color: #25D366;
+      border-color: #25D366;
+  }
+  
+  .btn-pesan:hover {
+      background-color: #128C7E;
+      border-color: #128C7E;
+  }
+  
+  /* Feature Box */
+  .feature-box {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+  }
+  
+  .feature-box:hover {
+      transform: translateY(-5px);
+  }
+  
+  /* Footer Styles */
+  .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 40px 0 20px;
+      margin-top: 50px;
+  }
+  
+  .social-links a {
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      text-align: center;
+      line-height: 36px;
+      margin-right: 10px;
+      transition: all 0.3s;
+  }
+  
+  .social-links a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      transform: translateY(-3px);
+  }
+  
+  /* Product Detail Styles */
+  .product-image-container {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .product-image {
+      max-height: 400px;
+      object-fit: contain;
+  }
+  
+  /* Cart Styles */
+  .cart-item {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #dee2e6;
+      padding-bottom: 20px;
+  }
+  
+  .cart-item-image {
+      max-width: 100px;
+      object-fit: contain;
+  }
+  
+  .cart-qty {
+      width: 70px;
+  }
+  
+  .cart-summary {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+  }
+  
+  /* Empty cart */
+  .empty-cart {
+      text-align: center;
+      padding: 40px 0;
+  }
+  
+  .empty-cart i {
+      font-size: 5rem;
+      color: #dee2e6;
+      margin-bottom: 20px;
+  }
